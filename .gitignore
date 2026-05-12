@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+ENV/
+
+# Streamlit
+.streamlit/
+
+# Models & Large Files
+*.pt
+*.pth
+*.m4a
+*.mp3
+*.wav
+*.flac
+*.ogg
+translated_audio.mp3
+
+# FFmpeg executables (if added locally)
+ffmpeg.exe
+ffplay.exe
+ffprobe.exe
+
+# OS
+.DS_Store
+Thumbs.db
